@@ -13,6 +13,7 @@ html, body {
 body {
     background-color: #19A1AD;
     overflow: hidden;
+    position: fixed;
 }
 
 .border {
@@ -143,3 +144,19 @@ body {
     top: 51vh;
 }
 
+@media (max-width: 375px) {
+    .bg-img-top {
+        bottom: 68vh;
+        right: 57vw;
+    }
+
+    .profile-container {
+        width: 19.5rem;
+    }
+
+    .bg-img-bottom {
+        width: 77vmax;
+        left: 47vw;
+        top: 62vh;
+    }
+}
