@@ -11,9 +11,10 @@ html, body {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
-    background-color: #19A1AD;
+    background-color: hsl(185, 75%, 39%);
     overflow: hidden;
     position: fixed;
+    font-size: 18px;
 }
 
 .border {
@@ -76,25 +77,26 @@ body {
 }
 
 .profile-container .pf-text {
+    color: hsl(229, 23%, 23%);
     text-align: center;
     height: 64.5%;
 }
 
 .profile-container .pf-text .pf-name span:nth-child(1) {
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-weight: 700;
+    font-size: 1.125rem;
     margin-right: 0.35rem;
 }
 
 .profile-container .pf-text .pf-name span:nth-child(2) {
-    font-weight: 550;
-    font-size: 1rem;
-    color: #2f3f41a9;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: hsl(0, 0%, 59%);
 }
 
 .profile-container .pf-text .pf-name p:nth-of-type(1) {
-    font-weight: 440;
-    color: #2f3f41a9;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
 }
 
 .profile-container .pf-text .sub {
@@ -125,15 +127,15 @@ body {
 }
 
 .profile-container .pf-text .sub p:nth-child(1) {
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-weight: 700;
+    font-size: 1.125rem;
 }
 
 .profile-container .pf-text .sub p:nth-child(2) {
-    color: #2f3f41a9;
-    font-size: 0.7rem;
+    color: hsl(0, 0%, 59%);
+    font-size: 0.75rem;
     letter-spacing: 0.115rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .bg-img-bottom {
